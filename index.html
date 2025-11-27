@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スポまちプロジェクト参加チーム募集（カキツバタVer）</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .a4-container {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: white;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        /* カキツバタ色（伝統的な紫紺・青紫）の定義 */
+        .bg-kakitsubata {
+            background-color: #4A2278; /* 深みのある紫色 */
+        }
+        .text-kakitsubata {
+            color: #4A2278;
+        }
+        .border-kakitsubata {
+            border-color: #4A2278;
+        }
+        .bg-kakitsubata-light {
+            background-color: #F3E5F5; /* 薄い紫 */
+        }
+        
+        @media print {
+            .a4-container {
+                box-shadow: none;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="a4-container relative">
+        <!-- Header / Catch Copy (Top 20%) -->
+        <div class="bg-kakitsubata text-white p-8 flex flex-col justify-center items-center text-center h-[65mm] relative overflow-hidden">
+            <!-- Decorative Background Elements -->
+            <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+                <!-- Abstract Iris/Flower shapes -->
+                <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 100 C 20 50 50 50 100 0 L 100 100 Z" fill="white" />
+                </svg>
+            </div>
+            
+            <p class="text-purple-200 font-bold tracking-widest text-lg mb-2 z-10">刈谷市「スポまち」プロジェクト参加チーム募集</p>
+            <h1 class="text-5xl font-black leading-tight z-10 drop-shadow-lg">
+                <span class="text-yellow-400 block text-3xl mb-1">【負担ゼロ・売上全額還元】</span>
+                「素材提供だけ」で、<br>
+                新しいファンを獲得しませんか？
+            </h1>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 px-10 py-6 flex flex-col justify-between">
+
+            <!-- 3 Benefits Section -->
+            <section>
+                <div class="flex items-center mb-4">
+                    <span class="bg-kakitsubata text-white text-sm font-bold px-3 py-1 rounded-full mr-2">メリット</span>
+                    <h2 class="text-2xl font-bold text-gray-800">チームが得られる3つのメリット</h2>
+                </div>
+                
+                <div class="grid grid-cols-3 gap-4">
+                    <!-- Benefit 1 -->
+                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-4 text-center">
+                        <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3 text-kakitsubata shadow-sm">
+                            <i data-lucide="hand-coins" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-lg font-black text-kakitsubata mb-1 leading-tight">コスト<br><span class="text-red-600 text-xl">一切なし</span></h3>
+                        <p class="text-xs text-gray-600 text-left mt-2 font-bold leading-relaxed">
+                            企画・広報・設営運営はすべて事務局担当。スタッフ派遣も不要です。
+                        </p>
+                    </div>
+
+                    <!-- Benefit 2 -->
+                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-4 text-center relative overflow-hidden">
+                        <div class="absolute -right-8 -top-8 bg-yellow-400 w-16 h-16 transform rotate-45 z-0"></div>
+                        <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3 text-kakitsubata shadow-sm z-10 relative">
+                            <i data-lucide="shopping-bag" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-lg font-black text-kakitsubata mb-1 leading-tight">グッズ売上<br><span class="text-red-600 text-xl">100%還元</span></h3>
+                        <p class="text-xs text-gray-600 text-left mt-2 font-bold leading-relaxed">
+                            会場販売の売上は全額チームへ。<br>
+                            手数料はいただきません。
+                        </p>
+                    </div>
+
+                    <!-- Benefit 3 -->
+                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-4 text-center">
+                        <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3 text-kakitsubata shadow-sm">
+                            <i data-lucide="users" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-lg font-black text-kakitsubata mb-1 leading-tight">新規層へ<br>アプローチ</h3>
+                        <p class="text-xs text-gray-600 text-left mt-2 font-bold leading-relaxed">
+                            街中開催により、スタジアムに来ない層へ魅力を届けます。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Request & Visuals Section -->
+            <section class="mt-4 bg-white rounded-xl p-5 border border-gray-300 shadow-sm flex-1 flex flex-col">
+                <div class="flex items-center mb-3 flex-shrink-0">
+                    <span class="bg-kakitsubata text-white text-sm font-bold px-3 py-1 rounded-full mr-2">これだけでOK</span>
+                    <h2 class="text-xl font-bold text-gray-800">お願いするのは、これだけです</h2>
+                </div>
+
+                <div class="flex gap-6 h-full min-h-[18rem]">
+                    <!-- Text Content -->
+                    <div class="w-1/2 flex flex-col justify-center space-y-4">
+                        <div class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-7 h-7 text-green-600 mr-3 flex-shrink-0"></i>
+                            <span class="font-bold text-gray-700 text-xl">参加の意思表示</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-7 h-7 text-green-600 mr-3 flex-shrink-0"></i>
+                            <div>
+                                <span class="font-bold text-gray-700 text-xl">映像・画像データの提供</span>
+                                <p class="text-sm text-gray-500 mt-1 font-bold">（既存の試合録画・LIVE映像・選手写真など）</p>
+                            </div>
+                        </div>
+                        <div class="text-sm text-gray-600 bg-purple-50 p-4 rounded-lg border border-purple-200 mt-2">
+                            <span class="font-bold text-kakitsubata text-lg">あとは事務局にお任せ！</span><br>
+                            <span class="leading-relaxed block mt-1">「街中パブリックビューイング」と「AI選手マッチング」を実施し、ファンを増やします。</span>
+                        </div>
+                    </div>
+
+                    <!-- Visual Placeholders (Expanded & Empty for pasting) -->
+                    <div class="w-1/2 flex gap-3 h-full">
+                        <!-- Image Area 1 -->
+                        <div class="w-1/2 h-full bg-white border-2 border-dashed border-gray-300 rounded-lg"></div>
+                        <!-- Image Area 2 -->
+                        <div class="w-1/2 h-full bg-white border-2 border-dashed border-gray-300 rounded-lg"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action / Next Steps -->
+            <section class="mt-4 flex-shrink-0">
+                <div class="border-t-2 border-dashed border-gray-300 mb-6"></div>
+                <div class="bg-yellow-50 border-2 border-yellow-400 rounded-2xl p-4 shadow-sm text-center">
+                    <div>
+                        <h2 class="text-lg font-bold text-gray-900 mb-1">▼ 今後のステップ</h2>
+                        <p class="text-xl font-bold text-red-600">
+                            担当より改めてご連絡を差し上げて、<br>
+                            10〜30分ほど短時間でご説明させていただきます。
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-100 p-2 text-center text-xs text-gray-500">
+            主催：刈谷市 スポまちプロジェクト事務局
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
