@@ -53,66 +53,70 @@
 <body class="bg-gray-100">
 
     <div class="a4-container relative">
-        <!-- Header / Catch Copy (Top 20%) -->
-        <div class="bg-kakitsubata text-white p-8 flex flex-col justify-center items-center text-center h-[65mm] relative overflow-hidden">
+        <!-- Header / Catch Copy -->
+        <div class="bg-kakitsubata text-white p-6 flex flex-col justify-center items-center text-center h-[75mm] relative overflow-hidden flex-shrink-0">
             <!-- Decorative Background Elements -->
             <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-                <!-- Abstract Iris/Flower shapes -->
                 <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
                     <path d="M0 100 C 20 50 50 50 100 0 L 100 100 Z" fill="white" />
                 </svg>
             </div>
             
-            <p class="text-purple-200 font-bold tracking-widest text-lg mb-2 z-10">刈谷市「スポまち」プロジェクト参加チーム募集</p>
-            <h1 class="text-5xl font-black leading-tight z-10 drop-shadow-lg">
-                <span class="text-yellow-400 block text-3xl mb-1">【負担ゼロ・売上全額還元】</span>
+            <!-- Logo Area -->
+            <div class="z-10 mb-5 w-48 bg-white p-1.5 rounded shadow-sm">
+                 <img src="logo_04.jpg" alt="刈谷スマートシティロゴ" class="w-full h-auto">
+            </div>
+
+            <p class="text-purple-200 font-bold tracking-widest text-base mb-2 z-10">刈谷市「スポまち」プロジェクト参加チーム募集</p>
+            <h1 class="text-4xl font-black leading-tight z-10 drop-shadow-lg">
+                <span class="text-yellow-400 block text-2xl mb-2">【負担ゼロ・売上全額還元】</span>
                 「素材提供だけ」で、<br>
                 新しいファンを獲得しませんか？
             </h1>
         </div>
 
         <!-- Main Content -->
-        <div class="flex-1 px-10 py-6 flex flex-col justify-between">
+        <div class="flex-1 px-10 py-4 flex flex-col h-full">
 
             <!-- 3 Benefits Section -->
-            <section>
-                <div class="flex items-center mb-4">
-                    <span class="bg-kakitsubata text-white text-sm font-bold px-3 py-1 rounded-full mr-2">メリット</span>
-                    <h2 class="text-2xl font-bold text-gray-800">チームが得られる3つのメリット</h2>
+            <section class="flex-shrink-0 mb-4">
+                <div class="flex items-center mb-2">
+                    <span class="bg-kakitsubata text-white text-sm font-bold px-3 py-1 rounded-full mr-2 shadow-sm">メリット</span>
+                    <h2 class="text-lg font-bold text-gray-800">チームが得られる3つのメリット</h2>
                 </div>
                 
-                <div class="grid grid-cols-3 gap-4">
+                <div class="grid grid-cols-3 gap-3">
                     <!-- Benefit 1 -->
-                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-4 text-center">
-                        <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3 text-kakitsubata shadow-sm">
-                            <i data-lucide="hand-coins" class="w-8 h-8"></i>
+                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-2.5 text-center">
+                        <div class="bg-white w-9 h-9 rounded-full flex items-center justify-center mx-auto mb-1.5 text-kakitsubata shadow-sm">
+                            <i data-lucide="hand-coins" class="w-5 h-5"></i>
                         </div>
-                        <h3 class="text-lg font-black text-kakitsubata mb-1 leading-tight">コスト<br><span class="text-red-600 text-xl">一切なし</span></h3>
-                        <p class="text-xs text-gray-600 text-left mt-2 font-bold leading-relaxed">
+                        <h3 class="text-base font-black text-kakitsubata mb-0.5 leading-tight">コスト<br><span class="text-red-600 text-lg">一切なし</span></h3>
+                        <p class="text-[10px] text-gray-600 text-left mt-1 font-bold leading-relaxed">
                             企画・広報・設営運営はすべて事務局担当。スタッフ派遣も不要です。
                         </p>
                     </div>
 
                     <!-- Benefit 2 -->
-                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-4 text-center relative overflow-hidden">
+                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-2.5 text-center relative overflow-hidden">
                         <div class="absolute -right-8 -top-8 bg-yellow-400 w-16 h-16 transform rotate-45 z-0"></div>
-                        <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3 text-kakitsubata shadow-sm z-10 relative">
-                            <i data-lucide="shopping-bag" class="w-8 h-8"></i>
+                        <div class="bg-white w-9 h-9 rounded-full flex items-center justify-center mx-auto mb-1.5 text-kakitsubata shadow-sm z-10 relative">
+                            <i data-lucide="shopping-bag" class="w-5 h-5"></i>
                         </div>
-                        <h3 class="text-lg font-black text-kakitsubata mb-1 leading-tight">グッズ売上<br><span class="text-red-600 text-xl">100%還元</span></h3>
-                        <p class="text-xs text-gray-600 text-left mt-2 font-bold leading-relaxed">
+                        <h3 class="text-base font-black text-kakitsubata mb-0.5 leading-tight">グッズ売上<br><span class="text-red-600 text-lg">100%還元</span></h3>
+                        <p class="text-[10px] text-gray-600 text-left mt-1 font-bold leading-relaxed">
                             会場販売の売上は全額チームへ。<br>
                             手数料はいただきません。
                         </p>
                     </div>
 
                     <!-- Benefit 3 -->
-                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-4 text-center">
-                        <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3 text-kakitsubata shadow-sm">
-                            <i data-lucide="users" class="w-8 h-8"></i>
+                    <div class="border-2 border-purple-100 bg-kakitsubata-light rounded-xl p-2.5 text-center">
+                        <div class="bg-white w-9 h-9 rounded-full flex items-center justify-center mx-auto mb-1.5 text-kakitsubata shadow-sm">
+                            <i data-lucide="users" class="w-5 h-5"></i>
                         </div>
-                        <h3 class="text-lg font-black text-kakitsubata mb-1 leading-tight">新規層へ<br>アプローチ</h3>
-                        <p class="text-xs text-gray-600 text-left mt-2 font-bold leading-relaxed">
+                        <h3 class="text-base font-black text-kakitsubata mb-0.5 leading-tight">新規層へ<br>アプローチ</h3>
+                        <p class="text-[10px] text-gray-600 text-left mt-1 font-bold leading-relaxed">
                             街中開催により、スタジアムに来ない層へ魅力を届けます。
                         </p>
                     </div>
@@ -120,65 +124,90 @@
             </section>
 
             <!-- Request & Visuals Section -->
-            <section class="mt-4 bg-white rounded-xl p-5 border border-gray-300 shadow-sm flex-1 flex flex-col overflow-hidden">
-                <div class="flex items-center mb-3 flex-shrink-0">
-                    <span class="bg-kakitsubata text-white text-sm font-bold px-3 py-1 rounded-full mr-2">これだけでOK</span>
-                    <h2 class="text-xl font-bold text-gray-800">お願いするのは、これだけです</h2>
+            <!-- Removed flex-1 to allow it to shrink/grow based on content, reducing whitespace below -->
+            <section class="bg-white rounded-xl p-3 border border-gray-300 shadow-sm flex-shrink-0 mb-4 overflow-hidden">
+                <div class="flex items-center mb-2">
+                    <span class="bg-kakitsubata text-white text-sm font-bold px-3 py-1 rounded-full mr-2 shadow-sm">これだけでOK</span>
+                    <h2 class="text-lg font-bold text-gray-800">お願いするのは、これだけです</h2>
                 </div>
 
-                <!-- Fixed height container to prevent layout breaking -->
-                <div class="flex gap-6 h-72">
+                <div class="flex gap-4 h-56">
                     <!-- Text Content -->
-                    <div class="w-1/2 flex flex-col justify-center space-y-4">
+                    <div class="w-1/2 flex flex-col justify-center space-y-2">
                         <div class="flex items-start">
-                            <i data-lucide="check-circle-2" class="w-7 h-7 text-green-600 mr-3 flex-shrink-0"></i>
-                            <span class="font-bold text-gray-700 text-xl">参加の意思表示</span>
+                            <i data-lucide="check-circle-2" class="w-6 h-6 text-green-600 mr-2 flex-shrink-0"></i>
+                            <span class="font-bold text-gray-700 text-base">参加の意思表示</span>
                         </div>
                         <div class="flex items-start">
-                            <i data-lucide="check-circle-2" class="w-7 h-7 text-green-600 mr-3 flex-shrink-0"></i>
+                            <i data-lucide="check-circle-2" class="w-6 h-6 text-green-600 mr-2 flex-shrink-0"></i>
                             <div>
-                                <span class="font-bold text-gray-700 text-xl">映像・画像データの提供</span>
-                                <p class="text-[11px] text-gray-500 mt-1 font-bold whitespace-nowrap">（既存の試合録画・LIVE映像・選手写真など）</p>
+                                <span class="font-bold text-gray-700 text-base">映像・画像データの提供</span>
+                                <p class="text-[10px] text-gray-500 mt-0.5 font-bold whitespace-nowrap">（既存の試合録画・LIVE映像・選手写真など）</p>
                             </div>
                         </div>
-                        <div class="text-sm text-gray-600 bg-purple-50 p-4 rounded-lg border border-purple-200 mt-2">
-                            <span class="font-bold text-kakitsubata text-lg">あとは事務局にお任せ！</span><br>
-                            <span class="leading-relaxed block mt-1">「街中パブリックビューイング」と「AI選手マッチング」を実施し、ファンを増やします。</span>
+                        <div class="text-xs text-gray-600 bg-purple-50 p-2.5 rounded-lg border border-purple-200 mt-1">
+                            <span class="font-bold text-kakitsubata text-sm">あとは事務局にお任せ！</span><br>
+                            <span class="leading-relaxed block mt-1 text-[10px]">「街中パブリックビューイング」と「AI選手マッチング」を実施し、ファンを増やします。</span>
                         </div>
                     </div>
 
-                    <!-- Visual Placeholders (Stacked Vertically with fixed proportions) -->
-                    <div class="w-1/2 flex flex-col gap-3 h-full overflow-hidden">
+                    <!-- Visual Placeholders -->
+                    <div class="w-1/2 flex flex-col gap-2 h-full overflow-hidden">
                         <!-- Image Area 1 (Screen - Top) -->
-                        <div class="w-full h-1/2 bg-white rounded-lg overflow-hidden border border-gray-200 flex items-center justify-center">
-                            <img src="2.png" alt="大型スクリーン" class="w-full h-full object-contain p-2">
+                        <div class="w-full h-1/2 min-h-0 bg-white rounded-lg overflow-hidden border border-gray-200 flex items-center justify-center">
+                            <img src="2.png" alt="大型スクリーン" class="w-full h-full object-contain p-1">
                         </div>
                         <!-- Image Area 2 (PV - Bottom) -->
-                        <div class="w-full h-1/2 bg-white rounded-lg overflow-hidden border border-gray-200 flex items-center justify-center">
-                            <img src="1.png" alt="街中PVの様子" class="w-full h-full object-cover">
+                        <div class="w-full h-1/2 min-h-0 bg-white rounded-lg overflow-hidden border border-gray-200 flex items-center justify-center">
+                            <img src="1.jpg" alt="街中PVの様子" class="w-full h-full object-cover">
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Info Section (Enlarged) -->
+            <section class="mb-auto">
+                 <div class="flex items-center mb-1.5">
+                    <span class="bg-kakitsubata text-white text-sm font-bold px-4 py-1.5 rounded-full mr-2 shadow-sm">本事業について</span>
+                    <!-- Duplicate text removed here -->
+                </div>
+                <!-- Increased padding and font size -->
+                <div class="bg-gray-50 rounded-lg p-4 border border-gray-200 text-sm text-gray-700">
+                    <div class="pl-1 space-y-1">
+                        <p>・本プロジェクトは、<span class="font-bold border-b-2 border-gray-400">愛知県の採択を受けた実証実験</span>です。</p>
+                        <p>・普段スタジアムに足を運べない方達が、身近な場所で試合を楽しめる環境づくりを目指しています。</p>
                     </div>
                 </div>
             </section>
 
             <!-- Call to Action / Next Steps -->
-            <section class="mt-4 flex-shrink-0">
-                <div class="border-t-2 border-dashed border-gray-300 mb-6"></div>
-                <div class="bg-yellow-50 border-2 border-yellow-400 rounded-2xl p-4 shadow-sm text-center">
+            <section class="flex-shrink-0 mt-4">
+                <div class="border-t-2 border-dashed border-gray-300 mb-3"></div>
+                <div class="bg-yellow-50 border-2 border-yellow-400 rounded-2xl p-3 shadow-sm text-center">
                     <div>
-                        <h2 class="text-lg font-bold text-gray-900 mb-1">▼ 今後のステップ</h2>
-                        <p class="text-xl font-bold text-red-600">
+                        <h2 class="text-sm font-bold text-gray-900 mb-0.5">▼ 今後のステップ</h2>
+                        <p class="text-lg font-bold text-red-600">
                             担当より改めてご連絡を差し上げて、<br>
                             10〜30分ほど短時間でご説明させていただきます。
                         </p>
                     </div>
                 </div>
+                
+                <!-- Contact Info -->
+                <div class="mt-2 flex justify-between items-end px-2">
+                    <div class="text-[10px] text-gray-600">
+                         <span class="font-bold">【担当部署】</span> 刈谷市企画政策課 / 株式会社トワール
+                    </div>
+                    <div class="font-bold text-base text-gray-800">
+                         TEL: 0566-95-0003 <span class="text-[10px] font-normal ml-1">（刈谷市企画政策課）</span>
+                    </div>
+                </div>
             </section>
-        </div>
 
-        <!-- Footer -->
-        <div class="bg-gray-100 p-2 text-center text-xs text-gray-500">
-            主催：刈谷市 スポまちプロジェクト事務局
+             <!-- Footer -->
+            <div class="mt-2 text-[9px] text-center text-gray-400">
+                主催：刈谷市 スポまちプロジェクト事務局
+            </div>
         </div>
     </div>
 
